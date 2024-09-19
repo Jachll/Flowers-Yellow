@@ -1,0 +1,27 @@
+.side-image {
+    position: fixed;
+    width: 300px;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    transition: all 0.5s ease;
+    /* Transición suave para el hover */
+    filter: brightness(0.8);
+    /* Reduce un poco el brillo por defecto */
+
+}
+
+/* Efecto específico para la imagen izquierda */
+.left-image {
+    left: 40px;
+
+    /* Posiciona la imagen a la izquierda */
+}
+
+/* Efecto específico para la imagen derecha */
+.right-image {
+    right: 40px;
+
+    /* Posiciona la imagen a la derecha */
+}
